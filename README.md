@@ -1,5 +1,5 @@
 ---
-title: SSDFGP | OuMark.ME
+title: SSDFGP | OuMark.ME 
 ---
 
 # R-package: SSDFGP
