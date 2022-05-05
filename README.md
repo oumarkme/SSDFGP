@@ -77,3 +77,9 @@ $$
 ==> The R function, nls (in stats package), is used to perform non-linear least squares estimation for the parameters in the model
 
 #### Procedure of determining the training set
+
+
+
+
+### Example data
+Rice data (44K SNP set) is used as sample data. This data is published by [Zhao et al. (2011)](https://www.nature.com/articles/ncomms1467) and the raw data can be found [HERE](http://www.ricediversity.org/data/sets/44kgwas/). In this research, we use PC matrix as a replacement for the genetic matrix. Arranged data can be found [HERE](https://github.com/oumarkme/SSDFGP/raw/main/rice44k.csv).
