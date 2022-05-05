@@ -5,3 +5,6 @@
 ^\.gitignore$
 ^README\.md$
 ^SSDFGP\.Rproj$
+^index\.html$
+^tmp/*$
+^rice44k\.csv$
