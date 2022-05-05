@@ -1,3 +1,7 @@
 ^LICENSE\.md$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^\.github$
+^\.gitignore$
+^README\.md$
+^SSDFGP\.Rproj$
