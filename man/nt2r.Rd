@@ -18,7 +18,7 @@ nt2r(geno, peno, nt, n_iter = 30, n_core = NULL)
 \item{n_core}{Number of cores. (Only tested on MacOS and UNIX-like system)}
 }
 \value{
-A vactor of r-scores of each iteration
+A vector of r-scores of each iteration
 }
 \description{
 Calculate r-scores (un-target) by in parallel.
