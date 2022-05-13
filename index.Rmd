@@ -1,0 +1,30 @@
+---
+title: "R-package: SSDFGP"
+subtitle: "Sample Size Determination for Genomic Prediction"
+author: "Last edited by: Jen-Hsiang Ou"
+date: "Last edited time: `r Sys.Date()`"
+output:
+  rmdformats::downcute:
+    self_contained: true
+    default_style: "dark"
+    downcute_theme: "default"
+---
+
+```{r setup, include=FALSE}
+## Global options
+knitr::opts_chunk$set(cache = TRUE)
+library(badger)
+```
+
+<!-- Badges -->
+
+`r badge_lifecycle("experimental")` `r badge_devel("oumarkme/SSDFGP", "blue")` `r badge_doi("not avalible", "yellow")`
+
+
+## Authorship
+
+Po-Ya Wu (Author)
+
+Jen-Hsiang Ou (Maintainer)
+
+Chen-Tuo Liao (Thesis advisor)

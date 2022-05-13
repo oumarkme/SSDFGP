@@ -3,6 +3,7 @@
 ^\.Rproj\.user$
 ^\.github$
 ^\.gitignore$
+^README\.Rmd$
 ^README\.md$
 ^SSDFGP\.Rproj$
 ^index\.html$
