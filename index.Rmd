@@ -20,11 +20,39 @@ library(badger)
 
 `r badge_lifecycle("experimental")` `r badge_devel("oumarkme/SSDFGP", "blue")` `r badge_doi("not avalible", "yellow")`
 
+------------------------------------------------------------------------
+
+## Introduction
+
+## Installation
+
+```{r eval=FALSE, include=TRUE}
+### RUN THIS IN R CONSOLE ###
+devtools::install_github("oumarkme/SSDFGP")
+library(SSDFGP)
+```
+
+You may pull requests or questions at [GitHub issue page](https://github.com/oumarkme/SSDFGP/issues) or directly contact one of us.
+
+## Main function in this package
 
 ## Authorship
 
-Po-Ya Wu (Author)
+-   Po-Ya Wu \<[Po-Ya.Wu\@hhu.de](mailto:Po-Ya.Wu@hhu.de)\>
+    -   Thesis author
 
-Jen-Hsiang Ou (Maintainer)
+    -   Institute for Quantitative Genetics and Genomics of Plants, Heinrich Heine University, Düsseldorf, Germany
+-   Jen-Hsiang Ou \<[jen-hsiang.ou\@imbim.uu.se](mailto:jen-hsiang.ou@imbim.uu.se)\>
+    -   Package maintainer
 
-Chen-Tuo Liao (Thesis advisor)
+    -   Department of Medical Biochemistry and Microbiology, Uppsala University, Uppsala, Sweden
+-   Chen-Tuo Liao \<[ctliao\@ntu.edu.tw](mailto:ctliao@ntu.edu.tw)\>
+    -   Project administration, supervisor
+
+    -   Department of Agronomy, National Taiwan University, Taipei, Taiwan
+
+## Citation
+
+## Funding and acknowledgment
+
+This research was supported by the Ministry of Science and Technology, Taiwan (grant number: MOST 110-2118-M-002-002-MY2)
