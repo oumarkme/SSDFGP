@@ -1,6 +1,6 @@
 Package: SSDFGP
 Title: Sample Size Determination for Genomic Prediction
-Version: 0.1
+Version: 0.2.1
 Authors@R: c(
         person("Jen-Hsiang", "Ou", 
             email = "jen-hsiang.ou@imbim.uu.se", 
