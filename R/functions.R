@@ -5,6 +5,7 @@
 #' @description Calculate r-scores (un-target) by in parallel.
 #' @import TSDFGS
 #' @import parallel
+#' @export
 nt2r = function(geno, peno, nt, n_iter = 30, n_core = NULL){
   
   # parallel cores

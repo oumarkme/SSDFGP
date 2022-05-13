@@ -3,11 +3,11 @@ Title: Sample Size Determination for Genomic Prediction
 Version: 0.1
 Authors@R: c(
         person("Jen-Hsiang", "Ou", 
-            email = "oumark.me@outlook.com", 
+            email = "jen-hsiang.ou@imbim.uu.se", 
             role = c("aut", "cre"), 
             comment = c(ORCID = "0000-0001-9305-2931")),
         person("Po-Ya", "Wu", 
-            email = "first.last@example.com", 
+            email = "Po-Ya.Wu@hhu.de", 
             role = c("aut"), 
             comment = c(ORCID = "0000-0002-7342-2867")),
         person("Chen-Tuo", "Liao", 
