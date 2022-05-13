@@ -4,18 +4,16 @@
 \alias{nt2r}
 \title{Simulate r-scores of each training set size}
 \usage{
-nt2r(geno, peno, nt, n_iter = 30, n_core = NULL)
+nt2r(geno, nt, n_iter = 30, multi.threads = TRUE)
 }
 \arguments{
 \item{geno}{A numeric dataframe of genotype, column represent sites (genotype coding as 1, 0, -1)}
 
-\item{peno}{A numeric vector of phenotype}
-
-\item{nt}{Numeric. Number of training set size.}
+\item{nt}{Numeric. Number of training set size}
 
 \item{n_iter}{Times of iteration. (default = 30)}
 
-\item{n_core}{Number of cores. (Only tested on MacOS and UNIX-like system)}
+\item{multi.threads}{Default: TRUE}
 }
 \value{
 A vector of r-scores of each iteration
