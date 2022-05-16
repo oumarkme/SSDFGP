@@ -4,10 +4,13 @@
 ^\.github$
 ^\.gitignore$
 ^README\.Rmd$
-^index\.Rmd$
+^index\.md$
 ^README\.md$
 ^SSDFGP\.Rproj$
 ^index\.html$
 ^tmp/*$
+^figs/*$
 ^rice44k\.csv$
 ^index_cache/*$
+^test/*$
+^style\.css$
