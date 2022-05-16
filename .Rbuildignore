@@ -13,4 +13,5 @@
 ^rice44k\.csv$
 ^index_cache/*$
 ^test/*$
+^source/*$
 ^style\.css$

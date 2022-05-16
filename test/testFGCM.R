@@ -1,9 +1,9 @@
 rm(list = ls())
 setwd("~/nas/Projects/SSDFGP/test/")
 
+devtools::install_github("oumarkme/SSDFGP")
+library(SSDFGP)
 library(TSDFGS)
-library(parallel)
-source("../R/functions.R")
 data(rice44kPCA)
 
-par = FGCM(geno)
+det = RErs.det(geno, seq(25, 225, 25))
