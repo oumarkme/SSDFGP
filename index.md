@@ -26,6 +26,8 @@ library(SSDFGP)
 ```
 
 - Contact authors via the [GitHub issue page](https://github.com/oumarkme/SSDFGP/issues) or e-mails in the authorship list below if you have any questions.
+- Source and binary files are also available ([HERE](https://github.com/oumarkme/SSDFGP/releases)) if you cannot install the package directly from GitHub.
+- This package is tested on R versions 3.6.3 and 4.1.1.
 
 ## The `RErs.det()` function
 
@@ -59,9 +61,11 @@ Output
 
 - `$OC.fit$`: The fitted values (RErs$(n_t)$) of the operating curve model. ($1 \leq n_t \leq n_c$).
 
+** Curves are plotted by the `ggplot2` package thus you may easily annotate them with `ggplot2` commands afterward.
+
 ## Example
 
-Here we use rice 44k data as an example. The raw dataset is available at [ricediversity.org](http://www.ricediversity.org/data/sets/44kgwas/) and published by [Zhao et al. (2011)](https://doi.org/10.1038/ncomms1467). Load PCA matrix of the genotype data from the `TSDFGS` package.
+Here we use rice 44k data as an example. The raw dataset is available at [ricediversity.org](http://www.ricediversity.org/data/sets/44kgwas/) and published by [Zhao et al. (2011)](https://doi.org/10.1038/ncomms1467). Load the principal component matrix of the genotype data from the `TSDFGS` package (this should be installed while installing the `SSDFGP` package).
 
 ```R
 # install.packages("TSDFGS")
