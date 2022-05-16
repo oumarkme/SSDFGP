@@ -132,7 +132,6 @@ RErs.det = function(geno, nt = NULL, n_iter = NULL, multi.threads = TRUE){
     labs(x = expression('Training set size (n'[t]*')'), y = expression('RErs(n'[t]*')'), title = "Operating curve")
   
   # Plot(Growth curve)
-  
   plotGC = ggplot() +
     geom_point(aes(x = n, y = r), data = par$sim, size = 0.8, alpha = 0.5) +
     geom_line(aes(x = nt, y = r.score), data = GC.fit, color = "blue") +
