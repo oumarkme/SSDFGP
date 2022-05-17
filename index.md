@@ -1,7 +1,7 @@
 ---
 layout: page
 title: R-Package: SSDFGP
-permalink: /SSDFGP/
+permalink: /SSDFGP/test/
 ---
 
 # R-Package: SSDFGP
