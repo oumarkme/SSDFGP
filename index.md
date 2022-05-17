@@ -1,6 +1,7 @@
 ---
-title: R-package: SSDFGP
-author: Mark Ou
+layout: page
+title: R-Package: SSDFGP
+permalink: /SSDFGP/
 ---
 
 # R-Package: SSDFGP
